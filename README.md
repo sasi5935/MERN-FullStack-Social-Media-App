@@ -72,3 +72,19 @@ This is a fullstack web application built using the MERN stack (MongoDB, Express
 2. Sign up for a new account or log in if you already have one.
 3. Create, like, and unlike posts.
 4. Toggle between light and dark modes using the switch in the header.
+
+## API Endpoints
+### Auth
+- `POST /api/auth/register`: Register a new user.
+- `POST /api/auth/login`: Log in an existing user.
+
+### Posts
+- `GET /api/posts`: Get all posts.
+- `POST /api/posts`: Create a new post.
+- `PUT /api/posts/:id/like`: Like or unlike a post.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code adheres to the project's coding standards and includes appropriate documentation.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
